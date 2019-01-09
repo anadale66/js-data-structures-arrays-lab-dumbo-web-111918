@@ -35,5 +35,9 @@ function removeLastDriver(name) {
     c = [...drivers]
     c.pop 
     return c.slice(0,2)
+  }function removeLastDriver(name) {
+    c = [...drivers]
+    c.pop 
+    return c.slice(0,2)
   }
 
