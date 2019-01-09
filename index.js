@@ -33,6 +33,7 @@ function prependDriver (name) {
 
 function removeLastDriver(name) {
     c = [...drivers]
-    return c.pop
+    c.pop 
+    return c
   }
 
