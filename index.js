@@ -34,6 +34,6 @@ function prependDriver (name) {
 function removeLastDriver(name) {
     c = [...drivers]
     c.pop 
-    return c.slice( 1)
+    return c.slice( 2)
   }
 
